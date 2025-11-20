@@ -1,10 +1,10 @@
 @font-face{
     font-family:Altone;
-    src:url(../../../Downloads/Altone-Trial-Regular.ttf)
+    src:url(Altone-Trial-Regular.ttf)
 }
 @font-face{
     font-family:Montserrat;
-    src:url(../../../Downloads/Montserrat/Montserrat-Medium.ttf);
+    src:url(Montserrat-Medium.ttf);
 }
 @keyframes fade-in{
 0%{opacity:0;
@@ -21,7 +21,7 @@ size:100%
         margin-top:0;
     }
 header{
-    background-image:url(../../../Downloads/tanino.jpeg);
+    background-image:url(tanino.jpeg);
     height:900px;
     width:100%;
     background-repeat:no-repeat;
@@ -129,4 +129,5 @@ a:hover{
     top:50px;
     font-size:35px;
     margin-top:25px;
+
 }
