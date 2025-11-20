@@ -1,0 +1,132 @@
+@font-face{
+    font-family:Altone;
+    src:url(../../../Downloads/Altone-Trial-Regular.ttf)
+}
+@font-face{
+    font-family:Montserrat;
+    src:url(../../../Downloads/Montserrat/Montserrat-Medium.ttf);
+}
+@keyframes fade-in{
+0%{opacity:0;
+transform:translateY(30px);
+size:70%
+}
+100%{opacity:1;
+transform:translateY(0px);
+size:100%
+}
+}
+ body{
+        margin:0;
+        margin-top:0;
+    }
+header{
+    background-image:url(../../../Downloads/tanino.jpeg);
+    height:900px;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+body{
+    background-color:rgb(25, 25, 53);
+}
+p.mainparagraph{
+    color: aliceblue;
+    font-family:Montserrat;
+    text-align:center;
+    position:relative;
+    top:50px;
+    font-size:30px;
+    margin-left:250px;
+    margin-right:250px;
+    
+}
+.tt{
+    color: aliceblue;
+    font-family:Altone;
+    text-align:center;
+    position: relative;
+    top: 305px;
+    font-size:100px;
+}
+.horse{
+    color: aliceblue;
+    font-family:Altone;
+    text-align:center;
+    font-size:75px;
+}
+#originofthoroughbreds{
+    position:relative;
+    top:200px;
+    animation: fade-in;
+    animation-timeline:view();
+    animation-range:entry 0% cover 40%;
+}
+a{
+    color: aliceblue;
+    font-family:Montserrat;
+    position:relative;
+    left:15px;
+    margin:15px;
+    text-decoration:none;
+}
+iframe{
+    position:  relative;
+    left:36%;
+    top:100px;
+}
+footer{
+    color:aliceblue;
+    text-align:center;
+    font-family:Montserrat;
+    position:relative;
+    top:315px;
+    padding-bottom:85px;
+    padding-top:85px;
+    background-color:rgb(20, 24, 34)
+
+}
+.links{
+    background-color:rgb(20, 24, 34);
+    list-style-type: none;
+    margin:0;
+}
+.links li{
+    display:inline-block;
+    padding-top:25px;
+    padding-bottom:25px;
+    margin:0;
+    position:relative;
+}
+hr{
+    position:relative;
+    margin:0;
+}
+a:hover{
+    color:rgb(133, 135, 155);
+}
+#versailles{
+    position:relative;
+    margin-top:10%;
+    right:15px;
+    text-align:center;
+    animation: fade-in;
+    animation-timeline:view();
+    animation-range:entry 0% cover 40%;
+}
+#trf{
+    font-size:35px;
+    margin-bottom:25px;
+}
+#vrf{
+    position:relative;
+    top:25px;
+    font-size:35px;
+    margin-bottom:25px;
+}
+#rrt{
+    position:relative;
+    top:50px;
+    font-size:35px;
+    margin-top:25px;
+}
